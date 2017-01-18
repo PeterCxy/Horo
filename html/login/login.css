@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+div#container {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+div#content {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
+div#checkbox-wrapper {
+    text-align: left;
+    display: inline-block;
+    width: 85%;
+}
+
+div#progress-wrapper {
+    vertical-align: top;
+    width: 100%;
+    display: inline-block;
+}

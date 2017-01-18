@@ -1,0 +1,1 @@
+require("./lib/app/App").App.main()

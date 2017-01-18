@@ -1,0 +1,48 @@
+{
+  "name": "horo",
+  "version": "1.0.0",
+  "description": "Horo IRC client built with Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node_modules/.bin/electron index.js",
+    "fonts": "node_modules/.bin/goofoffline outDir=fonts outCss=mdi.css 'https://fonts.googleapis.com/icon?family=Material+Icons' && node_modules/.bin/goofoffline outDir=fonts outCss=roboto.css 'https://fonts.googleapis.com/css?family=Roboto:300,400,500'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterCxy/Horo.git"
+  },
+  "keywords": [
+    "IRC"
+  ],
+  "author": "PeterCxy",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/PeterCxy/Horo/issues"
+  },
+  "homepage": "https://github.com/PeterCxy/Horo#readme",
+  "dependencies": {
+    "appdirs": "^1.1.0",
+    "electron": "^1.4.14",
+    "irc": "^0.5.2",
+    "material-ui": "^0.16.7",
+    "mkdirp": "^0.5.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "rxjs": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.31",
+    "@types/es6-promise": "0.0.32",
+    "@types/irc": "^0.3.32",
+    "@types/material-ui": "^0.16.46",
+    "@types/mkdirp": "^0.3.29",
+    "@types/react": "^15.0.0",
+    "@types/react-dom": "^0.14.20",
+    "@types/react-mdl": "^1.7.18",
+    "@types/react-tap-event-plugin": "0.0.30",
+    "typescript": "^2.1.5",
+    "google-fonts-offline": "^0.1.2"
+  }
+}
